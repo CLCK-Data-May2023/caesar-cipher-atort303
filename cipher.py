@@ -1,4 +1,4 @@
-sentence = input("Please enter a sentence: " ).lower()
+sentence = input("Please enter a sentence: ").lower()
 encrypted_text = ""
 shift = 5
 for char in sentence:
