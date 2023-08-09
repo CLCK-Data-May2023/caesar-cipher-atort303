@@ -1,7 +1,6 @@
 sentence = input("Please enter a sentence: " ).lower()
 encrypted_text = ""
-shift = int(input("How many spaces to shift?: " ))
-
+shift = 5
 for char in sentence:
     if char.isalpha():
         ascii_offset = ord("A") if char.isupper() else ord("a")
