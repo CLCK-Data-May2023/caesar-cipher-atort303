@@ -8,5 +8,5 @@ for char in sentence:
         encrypted_text += encrypted_char
     else:
         encrypted_text += char
-print("The encrypted sentence is: ", encrypted_text)
+print("The encrypted sentence is:", encrypted_text)
 # add your code here
